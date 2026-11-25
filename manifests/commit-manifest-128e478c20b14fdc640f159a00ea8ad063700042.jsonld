@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 120920
+      "repolex:graphFileSize": 117630
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 414768
+      "repolex:graphFileSize": 413740
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "metadata_complete",
-  "repolex:parsedAt": "2026-11-25T03:40:17.517023+00:00",
+  "repolex:parsedAt": "2026-11-25T03:58:11.739115+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "websecurityscanner-0.3.0"
 }
