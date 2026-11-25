@@ -5,6 +5,7 @@
     "api_core/tests/unit/test_retry.py",
     "bigquery/samples/list_tables.py",
     "bigquery/tests/unit/model/test_model_reference.py",
+    "bigquery/tests/unit/test_client.py",
     "bigtable/docs/snippets_table.py",
     "bigtable/tests/unit/test_column_family.py",
     "bigtable/tests/unit/test_table.py",
@@ -22,6 +23,7 @@
     "oslogin/google/cloud/oslogin_v1/proto/oslogin_v1/proto/oslogin_pb2_grpc.py",
     "pubsub/tests/unit/gapic/v1/test_subscriber_client_v1.py",
     "storage/tests/unit/test_acl.py",
+    "talent/google/cloud/talent_v4beta1/proto/job_service_pb2.py",
     "tasks/google/cloud/tasks_v2/proto/queue_pb2.py",
     "videointelligence/tests/unit/gapic/v1/test_video_intelligence_service_client_v1.py"
   ],
@@ -31,7 +33,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz",
     "call_sites": 117593,
     "import_statements": 14397,
-    "call_targets_resolved": 5897,
+    "call_targets_resolved": 6571,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -45,5 +47,5 @@
     "extends_class_denormalized": 1820,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1809
+  "elapsed_seconds": 1812
 }
