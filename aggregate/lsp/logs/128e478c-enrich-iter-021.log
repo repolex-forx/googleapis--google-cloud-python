@@ -1,0 +1,17 @@
+[2026-11-25T16:04:51Z] === ENRICH ITERATION 21 START | repo=googleapis/google-cloud-python sha=128e478c ===
+[2026-11-25T16:04:51Z] [iter=21] PHASE START: enrich repo=googleapis/google-cloud-python sha=128e478c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/128e478c-enrich-iter-021.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz
+[2026-11-25T16:04:51Z] [iter=21] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T16:10:20Z] [iter=21] AST store loaded triples=21319360 load_secs=325 mem_mb=1154 MB
+[2026-11-25T16:10:20Z] [iter=21] Step 2: Finding LSP targets mem_mb=1154 MB
+[2026-11-25T16:10:52Z] [iter=21] LSP targets found call_sites=117593 imports=14397 extends=1830 implements=0 secs=32
+[2026-11-25T16:10:56Z] [iter=21] Loaded checkpoint partial graph triples=132745
+[2026-11-25T16:10:56Z] [iter=21] Primed enclosing-def cache from persisted triples entries=829
+[2026-11-25T16:11:24Z] [iter=21] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1154 MB
+[2026-11-25T16:12:44Z] [iter=21] Position index built positions=1449191 nodes_with_types=1824171 secs=80 mem_mb=3576 MB
+[2026-11-25T16:12:44Z] [iter=21] Step 3: Starting LSP resolution mem_mb=3576 MB already_completed_types=[] already_completed_files=29
+[2026-11-25T16:12:44Z] [iter=21] Resolving target type target_type=call_site count=117593
+[2026-11-25T16:12:45Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=0 resolved=0 errors=0 current=firestore/tests/unit/v1/test_query.py
+[2026-11-25T16:35:06Z] [iter=21] CHECKPOINT TRIGGERED elapsed_min=30.3 files_completed=29 new_files_this_iter=0 mem_mb=3579 MB
+[2026-11-25T16:35:06Z] [iter=21] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz triples=136867
+[2026-11-25T16:35:07Z] [iter=21] Checkpoint written, exiting with code 7
+[2026-11-25T16:35:07Z] [iter=21] PHASE END: enrich (checkpointed) elapsed_s=1815 elapsed_min=30.3 files_completed=29
