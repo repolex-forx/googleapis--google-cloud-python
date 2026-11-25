@@ -1,0 +1,18 @@
+[2026-11-25T10:58:14Z] === ENRICH ITERATION 12 START | repo=googleapis/google-cloud-python sha=128e478c ===
+[2026-11-25T10:58:14Z] [iter=12] PHASE START: enrich repo=googleapis/google-cloud-python sha=128e478c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/128e478c-enrich-iter-012.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz
+[2026-11-25T10:58:14Z] [iter=12] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T11:02:18Z] [iter=12] AST store loaded triples=21319360 load_secs=239 mem_mb=1111 MB
+[2026-11-25T11:02:18Z] [iter=12] Step 2: Finding LSP targets mem_mb=1111 MB
+[2026-11-25T11:02:53Z] [iter=12] LSP targets found call_sites=117593 imports=14397 extends=1830 implements=0 secs=36
+[2026-11-25T11:02:57Z] [iter=12] Loaded checkpoint partial graph triples=102386
+[2026-11-25T11:02:57Z] [iter=12] Primed enclosing-def cache from persisted triples entries=544
+[2026-11-25T11:03:27Z] [iter=12] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1111 MB
+[2026-11-25T11:04:59Z] [iter=12] Position index built positions=1449191 nodes_with_types=1824171 secs=92 mem_mb=3440 MB
+[2026-11-25T11:04:59Z] [iter=12] Step 3: Starting LSP resolution mem_mb=3440 MB already_completed_types=[] already_completed_files=20
+[2026-11-25T11:04:59Z] [iter=12] Resolving target type target_type=call_site count=117593
+[2026-11-25T11:05:00Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=0 resolved=0 errors=0 current=dlp/tests/unit/gapic/v2/test_dlp_service_client_v2.py
+[2026-11-25T11:20:51Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=22.6 files_done=1 resolved=226 errors=0 current=firestore/tests/unit/gapic/v1/test_firestore_client_v1.py
+[2026-11-25T11:28:18Z] [iter=12] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=21 new_files_this_iter=1 mem_mb=3446 MB
+[2026-11-25T11:28:18Z] [iter=12] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz triples=105399
+[2026-11-25T11:28:19Z] [iter=12] Checkpoint written, exiting with code 7
+[2026-11-25T11:28:19Z] [iter=12] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=21
