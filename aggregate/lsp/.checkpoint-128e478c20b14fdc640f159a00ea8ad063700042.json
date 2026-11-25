@@ -15,6 +15,7 @@
     "dataproc/google/cloud/dataproc_v1beta2/proto/clusters_pb2.py",
     "datastore/google/cloud/datastore/key.py",
     "datastore/tests/unit/test__http.py",
+    "datastore/tests/unit/test_client.py",
     "dlp/tests/unit/gapic/v2/test_dlp_service_client_v2.py",
     "error_reporting/tests/unit/test_client.py",
     "firestore/google/cloud/firestore_v1beta1/proto/firestore_pb2.py",
@@ -40,7 +41,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz",
     "call_sites": 117593,
     "import_statements": 14397,
-    "call_targets_resolved": 8482,
+    "call_targets_resolved": 8816,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -54,5 +55,5 @@
     "extends_class_denormalized": 1820,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1803
+  "elapsed_seconds": 1821
 }
