@@ -1,0 +1,17 @@
+[2026-11-25T20:04:34Z] === ENRICH ITERATION 28 START | repo=googleapis/google-cloud-python sha=128e478c ===
+[2026-11-25T20:04:34Z] [iter=28] PHASE START: enrich repo=googleapis/google-cloud-python sha=128e478c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/128e478c-enrich-iter-028.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz
+[2026-11-25T20:04:34Z] [iter=28] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T20:09:01Z] [iter=28] AST store loaded triples=21319360 load_secs=258 mem_mb=1216 MB
+[2026-11-25T20:09:01Z] [iter=28] Step 2: Finding LSP targets mem_mb=1216 MB
+[2026-11-25T20:09:57Z] [iter=28] LSP targets found call_sites=117593 imports=14397 extends=1830 implements=0 secs=57
+[2026-11-25T20:10:05Z] [iter=28] Loaded checkpoint partial graph triples=154815
+[2026-11-25T20:10:05Z] [iter=28] Primed enclosing-def cache from persisted triples entries=1136
+[2026-11-25T20:10:54Z] [iter=28] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1216 MB
+[2026-11-25T20:13:07Z] [iter=28] Position index built positions=1449191 nodes_with_types=1824171 secs=133 mem_mb=3618 MB
+[2026-11-25T20:13:07Z] [iter=28] Step 3: Starting LSP resolution mem_mb=3618 MB already_completed_types=[] already_completed_files=41
+[2026-11-25T20:13:07Z] [iter=28] Resolving target type target_type=call_site count=117593
+[2026-11-25T20:13:09Z] [iter=28] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=0 resolved=0 errors=0 current=storage/tests/unit/test_bucket.py
+[2026-11-25T20:34:40Z] [iter=28] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=41 new_files_this_iter=0 mem_mb=3637 MB
+[2026-11-25T20:34:40Z] [iter=28] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz triples=158146
+[2026-11-25T20:34:42Z] [iter=28] Checkpoint written, exiting with code 7
+[2026-11-25T20:34:42Z] [iter=28] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=41
