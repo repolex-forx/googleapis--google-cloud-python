@@ -7,9 +7,11 @@
     "bigquery/tests/unit/model/test_model_reference.py",
     "bigquery/tests/unit/test_client.py",
     "bigtable/docs/snippets_table.py",
+    "bigtable/tests/unit/test_cluster.py",
     "bigtable/tests/unit/test_column_family.py",
     "bigtable/tests/unit/test_table.py",
     "container/tests/unit/gapic/v1beta1/test_cluster_manager_client_v1beta1.py",
+    "core/google/cloud/operation.py",
     "dataproc/google/cloud/dataproc_v1beta2/proto/clusters_pb2.py",
     "datastore/google/cloud/datastore/key.py",
     "datastore/tests/unit/test__http.py",
@@ -38,7 +40,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz",
     "call_sites": 117593,
     "import_statements": 14397,
-    "call_targets_resolved": 8228,
+    "call_targets_resolved": 8482,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -52,5 +54,5 @@
     "extends_class_denormalized": 1820,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1824
+  "elapsed_seconds": 1803
 }
