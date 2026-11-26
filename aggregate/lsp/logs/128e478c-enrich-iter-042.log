@@ -1,0 +1,18 @@
+[2026-11-26T04:06:50Z] === ENRICH ITERATION 42 START | repo=googleapis/google-cloud-python sha=128e478c ===
+[2026-11-26T04:06:50Z] [iter=42] PHASE START: enrich repo=googleapis/google-cloud-python sha=128e478c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/128e478c-enrich-iter-042.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz
+[2026-11-26T04:06:50Z] [iter=42] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T04:11:35Z] [iter=42] AST store loaded triples=21319360 load_secs=276 mem_mb=1148 MB
+[2026-11-26T04:11:35Z] [iter=42] Step 2: Finding LSP targets mem_mb=1148 MB
+[2026-11-26T04:12:32Z] [iter=42] LSP targets found call_sites=117593 imports=14397 extends=1830 implements=0 secs=57
+[2026-11-26T04:12:45Z] [iter=42] Loaded checkpoint partial graph triples=219506
+[2026-11-26T04:12:45Z] [iter=42] Primed enclosing-def cache from persisted triples entries=1547
+[2026-11-26T04:13:33Z] [iter=42] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1148 MB
+[2026-11-26T04:16:13Z] [iter=42] Position index built positions=1449191 nodes_with_types=1824171 secs=160 mem_mb=3626 MB
+[2026-11-26T04:16:13Z] [iter=42] Step 3: Starting LSP resolution mem_mb=3626 MB already_completed_types=[] already_completed_files=68
+[2026-11-26T04:16:13Z] [iter=42] Resolving target type target_type=call_site count=117593
+[2026-11-26T04:16:15Z] [iter=42] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=0 resolved=0 errors=0 current=firestore/tests/unit/v1/test_order.py
+[2026-11-26T04:22:24Z] [iter=42] HEARTBEAT target_type=call_site elapsed_min=15.6 files_done=1 resolved=45 errors=0 current=firestore/tests/unit/v1beta1/test_query.py
+[2026-11-26T04:37:43Z] [iter=42] CHECKPOINT TRIGGERED elapsed_min=30.9 files_completed=69 new_files_this_iter=1 mem_mb=3627 MB
+[2026-11-26T04:37:43Z] [iter=42] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz triples=221452
+[2026-11-26T04:37:46Z] [iter=42] Checkpoint written, exiting with code 7
+[2026-11-26T04:37:46Z] [iter=42] PHASE END: enrich (checkpointed) elapsed_s=1853 elapsed_min=30.9 files_completed=69
