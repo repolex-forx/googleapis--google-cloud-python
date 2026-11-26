@@ -1,0 +1,16 @@
+[2026-11-26T07:19:41Z] === ENRICH ITERATION 1 START | repo=googleapis/google-cloud-python sha=a591c205 ===
+[2026-11-26T07:19:41Z] [iter=1] PHASE START: enrich repo=googleapis/google-cloud-python sha=a591c205 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a591c205-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a591c205c68bad497399f0391d54b1c7d92ee592.nq.gz
+[2026-11-26T07:19:41Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T07:25:37Z] [iter=1] AST store loaded triples=19120662 load_secs=350 mem_mb=1083 MB
+[2026-11-26T07:25:37Z] [iter=1] Step 2: Finding LSP targets mem_mb=1083 MB
+[2026-11-26T07:26:20Z] [iter=1] LSP targets found call_sites=106680 imports=13395 extends=1737 implements=0 secs=43
+[2026-11-26T07:26:56Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1083 MB
+[2026-11-26T07:28:30Z] [iter=1] Position index built positions=1301473 nodes_with_types=1639578 secs=94 mem_mb=3112 MB
+[2026-11-26T07:28:30Z] [iter=1] Step 3: Starting LSP resolution mem_mb=3112 MB already_completed_types=[] already_completed_files=0
+[2026-11-26T07:28:30Z] [iter=1] Resolving target type target_type=call_site count=106680
+[2026-11-26T07:28:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=0 resolved=0 errors=0 current=pubsub/tests/unit/pubsub_v1/test_futures.py
+[2026-11-26T07:33:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=1 resolved=51 errors=0 current=bigtable/tests/unit/test_row_data.py
+[2026-11-26T07:49:53Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=1 new_files_this_iter=1 mem_mb=3115 MB
+[2026-11-26T07:49:53Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a591c205c68bad497399f0391d54b1c7d92ee592.nq.gz triples=67345
+[2026-11-26T07:49:53Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-26T07:49:53Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1811 elapsed_min=30.2 files_completed=1
