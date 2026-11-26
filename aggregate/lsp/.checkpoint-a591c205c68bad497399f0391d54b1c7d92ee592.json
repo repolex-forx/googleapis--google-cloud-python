@@ -4,6 +4,7 @@
     "bigquery/tests/unit/test_dataset.py",
     "bigquery/tests/unit/test_table.py",
     "bigtable/tests/unit/test_row_data.py",
+    "datalabeling/tests/unit/gapic/v1beta1/test_data_labeling_service_client_v1beta1.py",
     "dataproc/google/cloud/dataproc_v1/proto/clusters_pb2.py",
     "datastore/tests/unit/test_helpers.py",
     "firestore/tests/unit/v1beta1/test_transaction.py",
@@ -19,7 +20,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a591c205c68bad497399f0391d54b1c7d92ee592.nq.gz",
     "call_sites": 106680,
     "import_statements": 13395,
-    "call_targets_resolved": 3454,
+    "call_targets_resolved": 4015,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -33,5 +34,5 @@
     "extends_class_denormalized": 1727,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1845
+  "elapsed_seconds": 1813
 }
