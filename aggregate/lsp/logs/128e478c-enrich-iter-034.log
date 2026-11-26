@@ -1,0 +1,21 @@
+[2026-11-25T23:32:27Z] === ENRICH ITERATION 34 START | repo=googleapis/google-cloud-python sha=128e478c ===
+[2026-11-25T23:32:27Z] [iter=34] PHASE START: enrich repo=googleapis/google-cloud-python sha=128e478c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/128e478c-enrich-iter-034.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz
+[2026-11-25T23:32:27Z] [iter=34] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T23:38:43Z] [iter=34] AST store loaded triples=21319360 load_secs=370 mem_mb=1141 MB
+[2026-11-25T23:38:43Z] [iter=34] Step 2: Finding LSP targets mem_mb=1141 MB
+[2026-11-25T23:39:32Z] [iter=34] LSP targets found call_sites=117593 imports=14397 extends=1830 implements=0 secs=48
+[2026-11-25T23:39:40Z] [iter=34] Loaded checkpoint partial graph triples=176805
+[2026-11-25T23:39:40Z] [iter=34] Primed enclosing-def cache from persisted triples entries=1342
+[2026-11-25T23:40:20Z] [iter=34] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1141 MB
+[2026-11-25T23:42:14Z] [iter=34] Position index built positions=1449191 nodes_with_types=1824171 secs=114 mem_mb=3546 MB
+[2026-11-25T23:42:14Z] [iter=34] Step 3: Starting LSP resolution mem_mb=3546 MB already_completed_types=[] already_completed_files=46
+[2026-11-25T23:42:14Z] [iter=34] Resolving target type target_type=call_site count=117593
+[2026-11-25T23:42:16Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=0 resolved=0 errors=0 current=storage/tests/unit/test_blob.py
+[2026-11-25T23:43:34Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=1 resolved=25 errors=0 current=dataproc/google/cloud/dataproc_v1beta2/proto/jobs_pb2.py
+[2026-11-25T23:53:05Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=20.6 files_done=2 resolved=400 errors=0 current=iot/google/cloud/iot_v1/proto/resources_pb2.py
+[2026-11-25T23:55:27Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=3 resolved=565 errors=0 current=irm/google/cloud/irm_v1alpha2/proto/incidents_pb2.py
+[2026-11-25T23:59:38Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=27.2 files_done=4 resolved=760 errors=0 current=bigquery_datatransfer/google/cloud/bigquery_datatransfer_v1/proto/datatransfer_pb2.py
+[2026-11-26T00:02:34Z] [iter=34] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=50 new_files_this_iter=4 mem_mb=3553 MB
+[2026-11-26T00:02:34Z] [iter=34] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz triples=183128
+[2026-11-26T00:02:36Z] [iter=34] Checkpoint written, exiting with code 7
+[2026-11-26T00:02:36Z] [iter=34] PHASE END: enrich (checkpointed) elapsed_s=1807 elapsed_min=30.1 files_completed=50
