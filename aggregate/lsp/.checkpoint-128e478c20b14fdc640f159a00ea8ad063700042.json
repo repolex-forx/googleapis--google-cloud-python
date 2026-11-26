@@ -6,6 +6,7 @@
     "bigquery/samples/list_tables.py",
     "bigquery/tests/unit/model/test_model_reference.py",
     "bigquery/tests/unit/test_client.py",
+    "bigquery/tests/unit/test_external_config.py",
     "bigquery_datatransfer/google/cloud/bigquery_datatransfer_v1/proto/datatransfer_pb2.py",
     "bigquery_storage/google/cloud/bigquery_storage_v1beta1/proto/table_reference_pb2.py",
     "bigtable/docs/snippets_table.py",
@@ -17,6 +18,7 @@
     "container/tests/unit/gapic/v1/test_cluster_manager_client_v1.py",
     "container/tests/unit/gapic/v1beta1/test_cluster_manager_client_v1beta1.py",
     "core/google/cloud/operation.py",
+    "datalabeling/google/cloud/datalabeling_v1beta1/proto/data_labeling_service_pb2.py",
     "dataproc/google/cloud/dataproc_v1beta2/proto/clusters_pb2.py",
     "dataproc/google/cloud/dataproc_v1beta2/proto/jobs_pb2.py",
     "datastore/google/cloud/datastore/key.py",
@@ -52,6 +54,7 @@
     "tasks/google/cloud/tasks_v2/proto/target_pb2.py",
     "tasks/google/cloud/tasks_v2beta3/proto/target_pb2.py",
     "videointelligence/tests/unit/gapic/v1/test_video_intelligence_service_client_v1.py",
+    "vision/google/cloud/vision_v1/proto/geometry_pb2.py",
     "websecurityscanner/google/cloud/websecurityscanner_v1alpha/proto/web_security_scanner_pb2_grpc.py"
   ],
   "completed_types": [],
@@ -60,7 +63,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz",
     "call_sites": 117593,
     "import_statements": 14397,
-    "call_targets_resolved": 14086,
+    "call_targets_resolved": 15167,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -74,5 +77,5 @@
     "extends_class_denormalized": 1820,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1804
 }
