@@ -1,0 +1,19 @@
+[2026-11-26T01:52:12Z] === ENRICH ITERATION 38 START | repo=googleapis/google-cloud-python sha=128e478c ===
+[2026-11-26T01:52:12Z] [iter=38] PHASE START: enrich repo=googleapis/google-cloud-python sha=128e478c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/128e478c-enrich-iter-038.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz
+[2026-11-26T01:52:12Z] [iter=38] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T01:57:38Z] [iter=38] AST store loaded triples=21319360 load_secs=321 mem_mb=1094 MB
+[2026-11-26T01:57:38Z] [iter=38] Step 2: Finding LSP targets mem_mb=1094 MB
+[2026-11-26T01:58:19Z] [iter=38] LSP targets found call_sites=117593 imports=14397 extends=1830 implements=0 secs=41
+[2026-11-26T01:58:27Z] [iter=38] Loaded checkpoint partial graph triples=201641
+[2026-11-26T01:58:27Z] [iter=38] Primed enclosing-def cache from persisted triples entries=1426
+[2026-11-26T01:59:00Z] [iter=38] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1094 MB
+[2026-11-26T02:00:29Z] [iter=38] Position index built positions=1449191 nodes_with_types=1824171 secs=89 mem_mb=3718 MB
+[2026-11-26T02:00:29Z] [iter=38] Step 3: Starting LSP resolution mem_mb=3718 MB already_completed_types=[] already_completed_files=59
+[2026-11-26T02:00:29Z] [iter=38] Resolving target type target_type=call_site count=117593
+[2026-11-26T02:00:30Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=8.3 files_done=0 resolved=0 errors=0 current=bigquery/tests/unit/test_query.py
+[2026-11-26T02:15:16Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=1 resolved=332 errors=0 current=videointelligence/google/cloud/videointelligence_v1/proto/video_intelligence_pb2.py
+[2026-11-26T02:17:07Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=24.9 files_done=2 resolved=610 errors=0 current=bigquery/tests/system.py
+[2026-11-26T02:22:23Z] [iter=38] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=61 new_files_this_iter=2 mem_mb=3723 MB
+[2026-11-26T02:22:23Z] [iter=38] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz triples=207946
+[2026-11-26T02:22:25Z] [iter=38] Checkpoint written, exiting with code 7
+[2026-11-26T02:22:25Z] [iter=38] PHASE END: enrich (checkpointed) elapsed_s=1811 elapsed_min=30.2 files_completed=61
