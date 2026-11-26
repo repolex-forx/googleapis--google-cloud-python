@@ -3,6 +3,7 @@
   "completed_files": [
     "api_core/google/api_core/bidi.py",
     "api_core/tests/unit/test_retry.py",
+    "asset/google/cloud/asset_v1beta1/gapic/asset_service_client.py",
     "bigquery/samples/list_tables.py",
     "bigquery/tests/unit/model/test_model_reference.py",
     "bigquery/tests/unit/test_client.py",
@@ -24,6 +25,7 @@
     "datastore/google/cloud/datastore/key.py",
     "datastore/tests/unit/test__http.py",
     "datastore/tests/unit/test_client.py",
+    "dlp/google/cloud/dlp_v2/proto/dlp_pb2.py",
     "dlp/tests/unit/gapic/v2/test_dlp_service_client_v2.py",
     "error_reporting/tests/unit/test_client.py",
     "firestore/google/cloud/firestore_v1/gapic/firestore_client.py",
@@ -55,6 +57,8 @@
     "tasks/google/cloud/tasks_v2beta3/proto/target_pb2.py",
     "videointelligence/tests/unit/gapic/v1/test_video_intelligence_service_client_v1.py",
     "vision/google/cloud/vision_v1/proto/geometry_pb2.py",
+    "vision/google/cloud/vision_v1p1beta1/proto/image_annotator_pb2.py",
+    "vision/google/cloud/vision_v1p4beta1/gapic/product_search_client.py",
     "websecurityscanner/google/cloud/websecurityscanner_v1alpha/proto/web_security_scanner_pb2_grpc.py"
   ],
   "completed_types": [],
@@ -63,7 +67,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/128e478c20b14fdc640f159a00ea8ad063700042.nq.gz",
     "call_sites": 117593,
     "import_statements": 14397,
-    "call_targets_resolved": 15167,
+    "call_targets_resolved": 15888,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -77,5 +81,5 @@
     "extends_class_denormalized": 1820,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1804
+  "elapsed_seconds": 1829
 }
